@@ -1,0 +1,77 @@
+h3{
+    font-family: Calibri; 
+    font-size: 19pt;         
+    font-style: normal; 
+    font-weight: bold; 
+    color:rgb(22, 12, 1);
+    text-align: center; 
+    text-decoration: underline
+  }
+
+  input[type="number"]{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 9px;
+    padding: 1px;
+    width: 120px;
+    height: 28px;
+    border: none;
+    border-bottom: 1px solid #AAA;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 19px;
+    transition: 0.2s ease;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: rgb(87, 240, 120);
+    font-size: 16px;
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+  }
+  
+  table{
+    font-family: Calibri; 
+    color:white; 
+    font-size: 13pt; 
+    font-style: normal;
+    font-weight: bold;
+    text-align:center; 
+    background-color: rgb(30, 94, 24); 
+    border-collapse: collapse; 
+    border: 2px solid navy
+  }
+  table.inner{
+    border: 0px
+  }
+
+input[type="submit"],input[type="reset"]  {
+    margin-top: 13px;
+    width: 90px;
+    height: 28px;
+    background: #1feb3d;
+    border: none;
+    border-radius: 3px;
+    color: rgb(3, 3, 3);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.1s ease;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover,input[type="reset"]
+  input[type="submit"]:focus,input[type="reset"]:focus {
+    opacity: 0.8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+  }
+  
+  input[type="submit"]:active ,input[type="reset"]:active{
+    opacity: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+  }
